@@ -10,7 +10,7 @@ Lasly, I've implemented all the additional correction heuristics as described in
 Overview
 --------
 I read the famous HyperLogLog [1] paper on a flight to SF, but it seemed like total voodoo to me, so I figured I'd implement it.
-There's a much better and more readible javascript implementation at [2].
+There's a much better and more readible javascript implementation at [2][3] and also an existing node package you might find useful at [4].
 
 Example
 -------
@@ -35,3 +35,4 @@ References
   * [1] http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf
   * [2] http://www.aggregateknowledge.com/science/blog/hll.html
   * [3] https://github.com/aggregateknowledge/js-hll
+  * [4] https://github.com/optimizely/hyperloglog
