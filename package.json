@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name":    "hyperloglog",
+  "version": "0.0.1",
+  "dependencies": {
+    "murmurhash": "0.0.2"
+  },
+  "scripts": {
+    "run": "node runner.js"
+  }
+}
