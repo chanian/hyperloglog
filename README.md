@@ -15,8 +15,8 @@ There's a much better and more readible javascript implementation at [2].
 Example
 -------
   ```javascript
-  var HyperLogLog = require("hyperloglog");
-  var hll = HyperLogLog();
+  var HyperLogLog = require("lib/hll.js");
+  var hll = new HyperLogLog();
 
   // Batch
   var myBigDataSet = [ ..... ]; // a large set of hashable items
