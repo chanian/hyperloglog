@@ -9,6 +9,12 @@ murmur hash, to satisfy the constraint of uniformly mapping arbitrary
 data inputs to the 32-bit binary domain. Lasly, I've implemented all
 the additional correction heuristics as described in [1].
 
+Overview
+--------
+I read the famous HyperLogLog [1] paper on a flight to SF, but it seemed 
+like total voodoo to me, so I figured I'd implement it. There's a much better
+and more readible javascript implementation at [2].
+
 Example
 -------
   ```javascript
