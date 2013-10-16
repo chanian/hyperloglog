@@ -7,11 +7,11 @@ Near-optimal, space efficient, high cardinality approximations for
 large data sets and streaming datasets. This implementation relies on
 murmur hash, to satisfy the constraint of uniformly mapping arbitrary
 data inputs to the 32-bit binary domain. Lasly, I've implemented all
-the additional correction heuristics as described in (1).
+the additional correction heuristics as described in [1].
 
 Example
 -------
-
+  ```javascript
   var HyperLogLog = require("hyperloglog");
   var hll = HyperLogLog();
 
@@ -24,6 +24,7 @@ Example
     hll.process(item);
     console.log(hll.process(item).cardinality());
   }
+  ```
 
 References
 ----------
